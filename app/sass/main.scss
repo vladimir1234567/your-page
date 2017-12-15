@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:700');
+@import url('https://fonts.googleapis.com/css?family=Cardo:400i');
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../../node_modules/hover.css/scss/hover.scss";
+
+
+
+@import "base/reset";
+@import "base/variables";
+@import "base/mixins";
+@import "base/components";
+@import "base/social-comp";
+
+@import "start";
+@import "header";
+@import "hello";
+@import "features";
+@import "works";
+@import "team";
+
+@import "slider-page";
+@import "loader";
+@import "footer";
+

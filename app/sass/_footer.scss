@@ -1,0 +1,26 @@
+.footer-main {
+  background: #3a3e64;
+  .footer-top {
+    padding: 70px 0;
+    .item-descript {
+      opacity: 0.5;
+    }
+  }
+  .footer-under {
+    background: #313454;
+    padding: 30px 0;
+    p {
+      width: 276px;
+      color: #808080;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 22.5px;
+
+      span {
+        color: #ffffff;
+        font-size: 13px;
+        font-weight: 400;
+      }
+    }
+  }
+}
