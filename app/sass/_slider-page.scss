@@ -1,0 +1,16 @@
+.slider-page {
+  display: block;
+  .carousel-caption {
+    width: 30%;
+    left: 55%;
+    bottom: 25%;
+  }
+  .carousel-indicators {
+    left: 50%;
+    li {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+    }
+  }
+}

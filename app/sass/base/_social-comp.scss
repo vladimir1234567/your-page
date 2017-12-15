@@ -1,0 +1,34 @@
+.social-btn {
+  display: flex;
+
+  li {
+    width: 40px;
+    height: 40px;
+    margin-right: 4px;
+    border: 1px solid #e8ecee;
+    cursor: pointer;
+
+    &:hover {
+      border: none;
+      background-color: #e84545;
+
+      a {
+        i {
+          color: white;
+        }
+      }
+    }
+
+    a {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      i {
+        color: #c6cacc;
+      }
+    }
+  }
+}

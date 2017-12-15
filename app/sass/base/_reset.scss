@@ -1,0 +1,22 @@
+h1 {
+  margin: 0;
+  font-size: 0;
+}
+.navbar-toggler {
+  outline: none;
+}
+.navbar-toggler:active,
+.navbar-toggler:hover,
+.navbar-toggler:focus {
+  outline: 0;
+  outline-offset: 0;
+}
+section ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  margin: 0;
+  padding: 0;
+}
