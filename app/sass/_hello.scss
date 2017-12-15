@@ -50,16 +50,51 @@
   .fa-times {
     display: none;
   }
-  &:active {
-    //.fa-times {
-    //  display: block;
-    //}
-    //.fa-bars {
-    //  display: none;
-    //}
-  }
 }
-.fa-bars,
+.fa-bars {
+  color: $white;
+}
 .fa-times {
   color: $white;
 }
+@media (max-width: 955px) {
+  .hello .container-min {
+    top: 45%;
+  }
+  .hello .page-title {
+    font-size: 50px;
+    line-height: 60px;
+  }
+}
+@media (max-width: 955px) {
+  .hello .page-title {
+    font-size: 20px;
+    line-height: 40px;
+  }
+  .hello .section-descript {
+    font-size: 12px;
+  }
+}
+@media (max-width: 720px) {
+
+  .hello .section-descript {
+    display: none;
+  }
+
+}
+@media (max-width: 561px) {
+
+  .hello .page-title {
+    font-size: 20px;
+    line-height: 40px;
+  }
+
+}
+@media (max-width: 560px) {
+
+  .hello .page-title {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+
